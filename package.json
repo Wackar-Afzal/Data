@@ -1,0 +1,26 @@
+{
+  "name": "datasecondlanguage",
+  "version": "1.0.0",
+  "description": "learn skd",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backendServer/server.js",
+    "server": "node backendServer/server.js",
+    "client": "yarn start --prefix my-app"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
